@@ -1,10 +1,14 @@
 "use client";
 
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 export default function NavMenu() {
   const [ouvert, setOuvert] = useState(false);
   const [sousMenu, setSousMenu] = useState(null);
+  const pathname = usePathname();
+  const actif = (href) => (pathname === href ? " current-menu-item current_page_item" : "");
+  const ancetre = (hrefs) => (hrefs.includes(pathname) ? " current-menu-ancestor" : "");
 
   // Sur mobile/tablette : un clic sur un item parent ouvre ou ferme son sous-menu
   const basculerSousMenu = (e) => {
@@ -23,82 +27,82 @@ export default function NavMenu() {
               <div className={"jkit-menu-wrapper" + (ouvert ? " active" : "")}>
                 <div className="jkit-menu-container">
                   <ul id="menu-menu" className="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top" onClick={basculerSousMenu}>
-                    <li id="menu-item-1089" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-159 current_page_item menu-item-1089">
-                      <a href="/" aria-current="page">
+                    <li id="menu-item-1089" className={"menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1089" + actif("/")}>
+                      <a href="/">
                         Accueil
                       </a>
                     </li>
-                    <li id="menu-item-1088" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1088">
-                      <a href="/about/">
+                    <li id="menu-item-1088" className={"menu-item menu-item-type-post_type menu-item-object-page menu-item-1088" + actif("/about")}>
+                      <a href="/about">
                         À propos
                       </a>
                     </li>
-                    <li id="menu-item-1091" className={"menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1091" + (sousMenu === "menu-item-1091" ? " open" : "")}>
-                      <a href="/services/">
+                    <li id="menu-item-1091" className={"menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1091" + (sousMenu === "menu-item-1091" ? " open" : "") + ancetre(["/services", "/service-details"])}>
+                      <a href="/services">
                         Services
                         <i aria-hidden="true" className="jki jki-chevron-down-light"></i>
                       </a>
                       <ul className="sub-menu">
-                        <li id="menu-item-1087" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1087">
-                          <a href="/services/">
+                        <li id="menu-item-1087" className={"menu-item menu-item-type-post_type menu-item-object-page menu-item-1087" + actif("/services")}>
+                          <a href="/services">
                             Services
                           </a>
                         </li>
-                        <li id="menu-item-1086" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1086">
-                          <a href="/service-details/">
+                        <li id="menu-item-1086" className={"menu-item menu-item-type-post_type menu-item-object-page menu-item-1086" + actif("/service-details")}>
+                          <a href="/service-details">
                             Détails du service
                           </a>
                         </li>
                       </ul>
                     </li>
-                    <li id="menu-item-13" className={"menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-13" + (sousMenu === "menu-item-13" ? " open" : "")}>
+                    <li id="menu-item-13" className={"menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-13" + (sousMenu === "menu-item-13" ? " open" : "") + ancetre(["/project", "/team", "/faq", "/404-page"])}>
                       <a href="#">
                         Pages
                         <i aria-hidden="true" className="jki jki-chevron-down-light"></i>
                       </a>
                       <ul className="sub-menu">
-                        <li id="menu-item-1085" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1085">
-                          <a href="/project/">
+                        <li id="menu-item-1085" className={"menu-item menu-item-type-post_type menu-item-object-page menu-item-1085" + actif("/project")}>
+                          <a href="/project">
                             Projet
                           </a>
                         </li>
-                        <li id="menu-item-1080" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1080">
-                          <a href="/team/">
+                        <li id="menu-item-1080" className={"menu-item menu-item-type-post_type menu-item-object-page menu-item-1080" + actif("/team")}>
+                          <a href="/team">
                             Équipe
                           </a>
                         </li>
-                        <li id="menu-item-1084" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1084">
-                          <a href="/faq/">
+                        <li id="menu-item-1084" className={"menu-item menu-item-type-post_type menu-item-object-page menu-item-1084" + actif("/faq")}>
+                          <a href="/faq">
                             FAQ
                           </a>
                         </li>
-                        <li id="menu-item-1083" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1083">
-                          <a href="/404-page/">
+                        <li id="menu-item-1083" className={"menu-item menu-item-type-post_type menu-item-object-page menu-item-1083" + actif("/404-page")}>
+                          <a href="/404-page">
                             Page 404
                           </a>
                         </li>
                       </ul>
                     </li>
-                    <li id="menu-item-1090" className={"menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1090" + (sousMenu === "menu-item-1090" ? " open" : "")}>
-                      <a href="/blog/">
+                    <li id="menu-item-1090" className={"menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1090" + (sousMenu === "menu-item-1090" ? " open" : "") + ancetre(["/blog", "/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2023"])}>
+                      <a href="/blog">
                         Blog
                         <i aria-hidden="true" className="jki jki-chevron-down-light"></i>
                       </a>
                       <ul className="sub-menu">
-                        <li id="menu-item-1082" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1082">
-                          <a href="/blog/">
+                        <li id="menu-item-1082" className={"menu-item menu-item-type-post_type menu-item-object-page menu-item-1082" + actif("/blog")}>
+                          <a href="/blog">
                             Blog
                           </a>
                         </li>
-                        <li id="menu-item-1092" className="menu-item menu-item-type-post_type menu-item-object-post menu-item-1092">
+                        <li id="menu-item-1092" className={"menu-item menu-item-type-post_type menu-item-object-post menu-item-1092" + actif("/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2023")}>
                           <a href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2023">
                             Article unique
                           </a>
                         </li>
                       </ul>
                     </li>
-                    <li id="menu-item-1081" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1081">
-                      <a href="/contact/">
+                    <li id="menu-item-1081" className={"menu-item menu-item-type-post_type menu-item-object-page menu-item-1081" + actif("/contact")}>
+                      <a href="/contact">
                         Contact
                       </a>
                     </li>

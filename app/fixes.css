@@ -1,0 +1,6 @@
+/* Correctifs de mise en page liés à la traduction française (libellés plus longs que l'anglais) */
+
+/* Détail du service : la colonne des valeurs reste à droite des libellés */
+.elementor-806 .elementor-element.elementor-element-68514fc {
+  max-width: 60%;
+}

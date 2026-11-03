@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function Services() {
   return (
     <>
@@ -15,7 +13,7 @@ export default function Services() {
                       <div className="elementor-element elementor-element-480ac8ca elementor-widget elementor-widget-heading">
                         <div className="elementor-widget-container">
                           <h3 className="elementor-heading-title elementor-size-default">
-                            Comment puis-je t&apos;aider?
+                            Comment puis-je t'aider?
                           </h3>
                           {" "}
                         </div>
@@ -28,10 +26,10 @@ export default function Services() {
                       <div className="elementor-element elementor-element-e2b179e elementor-widget elementor-widget-jkit_button">
                         <div className="elementor-widget-container">
                           <div className="jeg-elementor-kit jkit-button icon-position-after jeg_module_159_4_6ae726544690c">
-                            <Link href="/" className="jkit-button-wrapper">
-  Explorer le service
-  <i aria-hidden="true" className="jki jki-right-arrow-light"></i>
-</Link>
+                            <a href="/" className="jkit-button-wrapper">
+                              Explorer le service
+                              <i aria-hidden="true" className="jki jki-right-arrow-light"></i>
+                            </a>
                           </div>
                           {" "}
                         </div>
@@ -95,7 +93,7 @@ export default function Services() {
                                 {" "}
                               </span>
                               <span className="elementor-icon-list-text">
-                                Biens d&apos;équipement
+                                Biens d'équipement
                               </span>
                             </li>
                           </ul>
@@ -134,7 +132,7 @@ export default function Services() {
                         <div className="jkit-mailchimp-email jkit-input-wrapper input-container">
                           <div className="jkit-form-group">
                             <div className="jkit-input-element-container jkit-input-group">
-                              <input type="email" name="email" className="jkit-email jkit-form-control" placeholder="Your Email" required />
+                              <input type="email" name="email" className="jkit-email jkit-form-control" placeholder="Your Email" required value />
                             </div>
                           </div>
                         </div>

@@ -1,5 +1,7 @@
 import "./template.css";
 import "./menu-mobile.css";
+import "./template-pages.css";
+import "./fixes.css";
 
 export const metadata = {
   title: "Petrol – Industrie pétrolière et gazière",
