@@ -1,0 +1,86 @@
+/* Menu mobile / tablette (le template d'origine le gère en JavaScript Elementor) */
+.jkit-nav-menu .jkit-close-menu,
+.jkit-nav-menu .jkit-overlay { display: none; }
+
+@media (max-width: 1024px) {
+  .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper {
+    position: fixed;
+    top: 0;
+    max-width: 85vw;
+    height: 100%;
+    overflow-y: auto;
+    transition: left 0.3s ease;
+    z-index: 10001;
+  }
+  /* le CSS du template place le panneau hors écran (left négatif) : on le ramène quand il est actif */
+  .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper.active { left: 0 !important; }
+
+  .jeg-elementor-kit.jkit-nav-menu .jkit-menu-container { padding-top: 70px; }
+  .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu { display: block; height: auto; }
+  .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li { display: block; }
+  .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li > a { display: block; width: 100%; }
+
+  .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-nav-identity-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-nav-identity-panel .jkit-close-menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li.menu-item-has-children .sub-menu {
+    position: static;
+    display: none;
+    opacity: 1;
+    visibility: visible;
+    box-shadow: none;
+    background: transparent;
+    min-width: 0;
+    padding-left: 15px;
+  }
+  .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li.menu-item-has-children.open > .sub-menu { display: block; }
+
+  .jeg-elementor-kit.jkit-nav-menu .jkit-overlay {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    z-index: 10000;
+  }
+  .jeg-elementor-kit.jkit-nav-menu .jkit-overlay.active { opacity: 1; visibility: visible; }
+}
+
+/* Icônes du bouton hamburger et du bouton de fermeture (police jkiticon) */
+.jkit-nav-menu .jkit-hamburger-menu::before {
+  font-family: "jkiticon";
+  content: "\e962";
+  font-size: 22px;
+  line-height: 1;
+  color: inherit;
+}
+.jkit-nav-menu .jkit-close-menu::before {
+  font-family: "jkiticon";
+  content: "\ee51";
+  font-size: 20px;
+  line-height: 1;
+  color: inherit;
+}
+
+@media (max-width: 1024px) {
+  /* les règles du template forcent opacity 0 / visibility hidden sur les sous-menus */
+  .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li.menu-item-has-children.open > .sub-menu {
+    display: block;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li.menu-item-has-children.open > .sub-menu li,
+  .jeg-elementor-kit.jkit-nav-menu .jkit-menu-wrapper .jkit-menu li.menu-item-has-children.open > .sub-menu a {
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+}
