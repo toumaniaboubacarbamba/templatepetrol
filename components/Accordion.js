@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useId, useState } from "react";
 
 export default function Accordion({ className, items }) {
+  const uid = useId();
   const [ouvert, setOuvert] = useState(items.findIndex((i) => i.open));
 
   return (
@@ -14,8 +15,8 @@ export default function Accordion({ className, items }) {
             <div className="card-header">
               <a
                 className="card-header-button"
-                href={`#expand-${i}`}
-                aria-controls={`expand-${i}`}
+                href={`#expand-${uid}-${i}`}
+                aria-controls={`expand-${uid}-${i}`}
                 aria-expanded={estOuvert}
                 onClick={(e) => {
                   e.preventDefault();
@@ -29,7 +30,7 @@ export default function Accordion({ className, items }) {
                 <span className="title">{item.title}</span>
               </a>
             </div>
-            <div className="card-expand" id={`expand-${i}`} style={{ display: estOuvert ? "block" : "none" }}>
+            <div className="card-expand" id={`expand-${uid}-${i}`} style={{ display: estOuvert ? "block" : "none" }}>
               <div className="card-body">{item.body}</div>
             </div>
           </div>

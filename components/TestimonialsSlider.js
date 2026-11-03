@@ -11,7 +11,7 @@ const temoignages = [
 const texte =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
 
-export default function TestimonialsSlider() {
+export default function TestimonialsSlider({ className = "jeg-elementor-kit jkit-testimonials arrow-middle-edge style-1 quote-override" }) {
   const [index, setIndex] = useState(0);
   const [parVue, setParVue] = useState(2);
 
@@ -31,7 +31,7 @@ export default function TestimonialsSlider() {
   });
 
   return (
-    <div className="jeg-elementor-kit jkit-testimonials arrow-middle-edge style-1 quote-override">
+    <div className={className}>
       <div className="testimonials-list" style={{ overflow: "hidden" }}>
         <div
           className="testimonials-track"
