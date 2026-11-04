@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Services() {
   return (
     <>
@@ -13,7 +15,7 @@ export default function Services() {
                       <div className="elementor-element elementor-element-480ac8ca elementor-widget elementor-widget-heading">
                         <div className="elementor-widget-container">
                           <h3 className="elementor-heading-title elementor-size-default">
-                            Comment puis-je t'aider?
+                            Comment puis-je t&apos;aider?
                           </h3>
                           {" "}
                         </div>
@@ -26,10 +28,10 @@ export default function Services() {
                       <div className="elementor-element elementor-element-e2b179e elementor-widget elementor-widget-jkit_button">
                         <div className="elementor-widget-container">
                           <div className="jeg-elementor-kit jkit-button icon-position-after jeg_module_159_4_6ae726544690c">
-                            <a href="/" className="jkit-button-wrapper">
+                            <Link href="/" className="jkit-button-wrapper">
                               Explorer le service
                               <i aria-hidden="true" className="jki jki-right-arrow-light"></i>
-                            </a>
+                            </Link>
                           </div>
                           {" "}
                         </div>
@@ -93,7 +95,7 @@ export default function Services() {
                                 {" "}
                               </span>
                               <span className="elementor-icon-list-text">
-                                Biens d'équipement
+                                Biens d&apos;équipement
                               </span>
                             </li>
                           </ul>

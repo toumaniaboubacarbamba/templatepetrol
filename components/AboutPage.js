@@ -1,4 +1,3 @@
-import VideoLightbox from "./VideoLightbox";
 import Accordion from "./Accordion";
 import Counter from "./Counter";
 import PieChart from "./PieChart";
@@ -234,11 +233,11 @@ export default function AboutPage() {
                         <div className="elementor-element elementor-element-62ac2fe elementor-hidden-phone elementor-widget elementor-widget-jkit_video_button">
                           <div className="elementor-widget-container">
                             <div className="jeg-elementor-kit jkit-video-button jeg_module_675_7_6ae8565210200">
-                              <VideoLightbox href="https://www.youtube.com/watch?v=MLpWrANjFbI" className="jkit-video-popup-btn glow-enable" label="Lire la vidéo">
+                              <a href="https://www.youtube.com/watch?v=MLpWrANjFbI" className="jkit-video-popup-btn glow-enable" aria-label="bouton vidéo">
                                 <span className="icon-position-before">
                                   <i aria-hidden="true" className="jki jki-play1-light"></i>
                                 </span>
-                              </VideoLightbox>
+                              </a>
                             </div>
                             {" "}
                           </div>

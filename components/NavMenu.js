@@ -8,7 +8,8 @@ export default function NavMenu() {
   const [sousMenu, setSousMenu] = useState(null);
   const pathname = usePathname();
   const actif = (href) => (pathname === href ? " current-menu-item current_page_item" : "");
-  const ancetre = (hrefs) => (hrefs.includes(pathname) ? " current-menu-ancestor" : "");
+  const ancetre = (hrefs) =>
+    hrefs.some((h) => h !== "/" && (pathname === h || pathname.startsWith(h + "/"))) ? " current-menu-ancestor" : "";
 
   // Sur mobile/tablette : un clic sur un item parent ouvre ou ferme son sous-menu
   const basculerSousMenu = (e) => {
