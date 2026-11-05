@@ -37,7 +37,7 @@ export default function Footer() {
                                   </h2>
                                 </div>
                                 <div className="heading-section-description">
-                                  Jl. Raya Puputan No 142, Denpasar
+                                  Gare nord Adjamé, Abidjan, Côte d&apos;Ivoire
                                 </div>
                               </div>
                               {" "}
@@ -280,7 +280,7 @@ export default function Footer() {
                                     </span>
                                   </h3>
                                   <p className="elementor-icon-box-description">
-                                    (+62) 81 487 1843
+                                    (+225) 81 148 32 843
                                   </p>
                                 </div>
                               </div>
