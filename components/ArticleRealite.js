@@ -33,7 +33,7 @@ export default function ArticleRealite() {
                             <div className="jeg-elementor-kit jkit-post-author jeg_module_466_3_6ae85c6b2a113">
                               <p className="post-author">
                                 <a href="/blog">
-                                  John Doe
+                                  ToumaniDev
                                 </a>
                               </p>
                             </div>
@@ -54,7 +54,7 @@ export default function ArticleRealite() {
                           <div className="elementor-widget-container">
                             <div className="jeg-elementor-kit jkit-post-date jeg_module_466_4_6ae85c6b2b167">
                               <p className="post-date">
-                                10 janvier 2023
+                                10 janvier 2026
                               </p>
                             </div>
                             {" "}
@@ -110,7 +110,7 @@ export default function ArticleRealite() {
                 <div className="elementor-element elementor-element-7da9cd87 elementor-widget elementor-widget-heading">
                   <div className="elementor-widget-container">
                     <h2 className="elementor-heading-title elementor-size-default">
-                      Assurez-vous d'obtenir toujours les meilleurs résultats
+                      Assurez-vous d&apos;obtenir toujours les meilleurs résultats
                     </h2>
                     {" "}
                   </div>

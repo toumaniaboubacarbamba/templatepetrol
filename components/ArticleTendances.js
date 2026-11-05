@@ -33,7 +33,7 @@ export default function ArticleTendances() {
                             <div className="jeg-elementor-kit jkit-post-author jeg_module_467_3_6ae85c6da4965">
                               <p className="post-author">
                                 <a href="/blog">
-                                  John Doe
+                                  ToumaniDev
                                 </a>
                               </p>
                             </div>
@@ -54,7 +54,7 @@ export default function ArticleTendances() {
                           <div className="elementor-widget-container">
                             <div className="jeg-elementor-kit jkit-post-date jeg_module_467_4_6ae85c6da5bb4">
                               <p className="post-date">
-                                10 janvier 2023
+                                10 janvier 2026
                               </p>
                             </div>
                             {" "}

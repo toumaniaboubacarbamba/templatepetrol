@@ -883,7 +883,7 @@ export default function AboutPage() {
                             <div className="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_675_24_6ae856523e04a">
                               <div className="heading-section-title display-inline-block">
                                 <h2 className="heading-title">
-                                  Kouassi Kouadio
+                                  Fabricio Malo
                                 </h2>
                               </div>
                               <div className="heading-section-description">

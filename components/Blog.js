@@ -290,7 +290,7 @@ export default function Blog() {
                                         <div className="meta-lists">
                                           <span className="meta-date">
                                             <i aria-hidden="true" className="jki jki-calendar-page-empty-light"></i>
-                                            10 janvier 2023
+                                            10 janvier 2026
                                           </span>
                                           {" "}
                                         </div>
@@ -306,7 +306,7 @@ export default function Blog() {
                                         <div className="meta-lists">
                                           <span className="meta-date">
                                             <i aria-hidden="true" className="jki jki-calendar-page-empty-light"></i>
-                                            10 janvier 2023
+                                            10 janvier 2026
                                           </span>
                                           {" "}
                                         </div>
@@ -322,7 +322,7 @@ export default function Blog() {
                                         <div className="meta-lists">
                                           <span className="meta-date">
                                             <i aria-hidden="true" className="jki jki-calendar-page-empty-light"></i>
-                                            10 janvier 2023
+                                            10 janvier 2026
                                           </span>
                                           {" "}
                                         </div>

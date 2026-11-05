@@ -261,7 +261,7 @@ export default function Footer() {
                           </div>
                           <div className="elementor-element elementor-element-f415c08 elementor-widget elementor-widget-text-editor">
                             <div className="elementor-widget-container">
-                              Obtenir un diagnostic précis peut être l'une des expériences les plus marquantes que vous puissiez vivre.
+                              Obtenir un diagnostic précis peut être l&apos;une des expériences les plus marquantes que vous puissiez vivre.
                             </div>
                           </div>
                           <div className="elementor-element elementor-element-658e2bf elementor-position-left elementor-vertical-align-bottom elementor-widget__width-auto elementor-view-stacked elementor-shape-square elementor-mobile-position-left elementor-widget-mobile__width-inherit elementor-widget elementor-widget-icon-box">
@@ -276,7 +276,7 @@ export default function Footer() {
                                 <div className="elementor-icon-box-content">
                                   <h3 className="elementor-icon-box-title">
                                     <span>
-                                      Plus d'informations
+                                      Plus d&apos;informations
                                     </span>
                                   </h3>
                                   <p className="elementor-icon-box-description">
@@ -292,7 +292,7 @@ export default function Footer() {
                   </section>
                   <div className="elementor-element elementor-element-8941343 elementor-widget elementor-widget-text-editor">
                     <div className="elementor-widget-container">
-                      Copyright © 2023 Petrol Templatekit par Jegtheme.
+                      © 2026 ToumaniDev – reproduction du template Petrol (Jegtheme)
                     </div>
                   </div>
                 </div>

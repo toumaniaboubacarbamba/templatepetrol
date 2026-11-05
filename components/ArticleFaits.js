@@ -33,7 +33,7 @@ export default function ArticleFaits() {
                             <div className="jeg-elementor-kit jkit-post-author jeg_module_468_3_6ae85c720d1c6">
                               <p className="post-author">
                                 <a href="/blog">
-                                  Toumani
+                                  ToumaniDev
                                 </a>
                               </p>
                             </div>
@@ -54,7 +54,7 @@ export default function ArticleFaits() {
                           <div className="elementor-widget-container">
                             <div className="jeg-elementor-kit jkit-post-date jeg_module_468_4_6ae85c720e216">
                               <p className="post-date">
-                                10 janvier 2023
+                                10 janvier 2026
                               </p>
                             </div>
                             {" "}

@@ -33,7 +33,7 @@ export default function Article7Raisons() {
                             <div className="jeg-elementor-kit jkit-post-author jeg_module_465_3_6ae85c688890e">
                               <p className="post-author">
                                 <a href="/blog">
-                                  Toumani
+                                  ToumaniDev
                                 </a>
                               </p>
                             </div>
@@ -54,7 +54,7 @@ export default function Article7Raisons() {
                           <div className="elementor-widget-container">
                             <div className="jeg-elementor-kit jkit-post-date jeg_module_465_4_6ae85c6889a2f">
                               <p className="post-date">
-                                10 janvier 2023
+                                10 janvier 2026
                               </p>
                             </div>
                             {" "}
