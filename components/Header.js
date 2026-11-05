@@ -117,7 +117,7 @@ export default function Header() {
                         <div className="elementor-icon-box-content">
                           <h3 className="elementor-icon-box-title">
                             <span>
-                              Plus d'informations
+                              Plus d&apos;informations
                             </span>
                           </h3>
                           <p className="elementor-icon-box-description">

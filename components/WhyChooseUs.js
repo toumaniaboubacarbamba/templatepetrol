@@ -122,7 +122,7 @@ export default function WhyChooseUs() {
                                 {" "}
                               </span>
                               <span className="elementor-icon-list-text">
-                                Jl. Raya Puputan No 142, Denpasar
+                                Gare nord Adjamé, Abidjan, Côte d&apos;Ivoire
                               </span>
                             </li>
                             <li className="elementor-icon-list-item">
@@ -131,7 +131,7 @@ export default function WhyChooseUs() {
                                 {" "}
                               </span>
                               <span className="elementor-icon-list-text">
-                                Du lundi au vendredi : de 9h00 à 17h00
+                                Du lundi au vendredi : de 8h30 à 17h30
                               </span>
                             </li>
                             <li className="elementor-icon-list-item">
@@ -140,7 +140,7 @@ export default function WhyChooseUs() {
                                 {" "}
                               </span>
                               <span className="elementor-icon-list-text">
-                                (+62) 81 487 1843
+                                (+225) 81 148 32 843
                               </span>
                             </li>
                           </ul>
