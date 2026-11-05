@@ -39,7 +39,7 @@ export default function News() {
                               <div className="jkit-posts jkit-ajax-flag">
                                 <article className="jkit-post post-464 post type-post status-publish format-standard has-post-thumbnail hentry category-metallurgy tag-metallurgy">
                                   <div className="jkit-thumb">
-                                    <a aria-label="Rapid Thermal Research and Innovation in Metallurgy by 2023" href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2023">
+                                    <a aria-label="Rapid Thermal Research and Innovation in Metallurgy by 2026" href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2026">
                                       <div className="thumbnail-container">
                                         <img width="1440" height="960" className="attachment-full size-full wp-post-image" alt="Extraction of crude oil in oilfield. Oil drilling rig pumps oil." src="/images/blog-1.jpg" />
                                       </div>
@@ -47,8 +47,8 @@ export default function News() {
                                   </div>
                                   <div className="jkit-postblock-content">
                                     <h3 className="jkit-post-title">
-                                      <a href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2023">
-                                        Recherche thermique rapide et innovation en métallurgie d'ici 2023
+                                      <a href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2026">
+                                        Recherche thermique rapide et innovation en métallurgie d&apos;ici 2026
                                       </a>
                                     </h3>
                                     <div className="jkit-post-excerpt">
@@ -58,7 +58,7 @@ export default function News() {
                                     </div>
                                     <div className="jkit-post-meta-bottom">
                                       <div className="jkit-meta-readmore icon-position-after">
-                                        <a title="Rapid Thermal Research and Innovation in Metallurgy by 2023" href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2023" className="jkit-readmore">
+                                        <a title="Rapid Thermal Research and Innovation in Metallurgy by 2026" href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2026" className="jkit-readmore">
                                           Lire la suite
                                           <i aria-hidden="true" className="jki jki-right-arrow-light"></i>
                                         </a>
@@ -77,7 +77,7 @@ export default function News() {
                                   <div className="jkit-postblock-content">
                                     <h3 className="jkit-post-title">
                                       <a href="/blog/7-reasons-why-build-a-great-career-in-the-oil-gas-industry">
-                                        7 raisons de construire une grande carrière dans l'industrie du pétrole et du gaz
+                                        7 raisons de construire une grande carrière dans l&apos;industrie du pétrole et du gaz
                                       </a>
                                     </h3>
                                     <div className="jkit-post-excerpt">
@@ -135,7 +135,7 @@ export default function News() {
                                   <div className="jkit-postblock-content">
                                     <h3 className="jkit-post-title">
                                       <a href="/blog/future-trends-in-the-oil-gas-construction-industry">
-                                        Tendances futures de l'industrie de la construction pétrolière et gazière
+                                        Tendances futures de l&apos;industrie de la construction pétrolière et gazière
                                       </a>
                                     </h3>
                                     <div className="jkit-post-excerpt">

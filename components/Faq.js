@@ -224,7 +224,7 @@ export default function Faq() {
                                 <div className="jkit-posts jkit-ajax-flag">
                                   <article className="jkit-post post-464 post type-post status-publish format-standard has-post-thumbnail hentry category-metallurgy tag-metallurgy">
                                     <div className="jkit-thumb">
-                                      <a aria-label="Recherche thermique rapide et innovation en métallurgie d'ici 2023" href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2023">
+                                      <a aria-label="Recherche thermique rapide et innovation en métallurgie d&apos;ici 2026" href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2026">
                                         <div className="thumbnail-container">
                                           <img className="attachment-full size-full wp-post-image" alt="Extraction de pétrole brut dans un champ pétrolier. Une plateforme de forage pétrolier pompe le pétrole." src="/images/blog-1.jpg" />
                                         </div>
@@ -232,8 +232,8 @@ export default function Faq() {
                                     </div>
                                     <div className="jkit-postblock-content">
                                       <h3 className="jkit-post-title">
-                                        <a href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2023">
-                                          Recherche thermique rapide et innovation en métallurgie d'ici 2023
+                                        <a href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2026">
+                                          Recherche thermique rapide et innovation en métallurgie d&apos;ici 2026
                                         </a>
                                       </h3>
                                       <div className="jkit-post-excerpt">
@@ -243,7 +243,7 @@ export default function Faq() {
                                       </div>
                                       <div className="jkit-post-meta-bottom">
                                         <div className="jkit-meta-readmore icon-position-after">
-                                          <a title="Recherche thermique rapide et innovation en métallurgie d'ici 2023" href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2023" className="jkit-readmore">
+                                          <a title="Recherche thermique rapide et innovation en métallurgie d&apos;ici 2026" href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2026" className="jkit-readmore">
                                             En savoir plus
                                             <i aria-hidden="true" className="jki jki-right-arrow-light"></i>
                                           </a>
@@ -262,7 +262,7 @@ export default function Faq() {
                                     <div className="jkit-postblock-content">
                                       <h3 className="jkit-post-title">
                                         <a href="/blog/7-reasons-why-build-a-great-career-in-the-oil-gas-industry">
-                                          7 raisons de bâtir une brillante carrière dans l'industrie pétrolière et gazière
+                                          7 raisons de bâtir une brillante carrière dans l&apos;industrie pétrolière et gazière
                                         </a>
                                       </h3>
                                       <div className="jkit-post-excerpt">

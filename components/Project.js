@@ -102,7 +102,7 @@ export default function Project() {
                           <div className="elementor-widget-container">
                             <div className="jeg-elementor-kit jkit-image-box style-default elementor-animation- jeg_module_807_2_6ae85c5691c0b">
                               <div className="image-box-header elementor-animation-">
-                                <img className="attachment-full size-full" alt="Ouvrier d'usine dans l'industrie métallurgique" src="/images/about-54252451.jpg" />
+                                <img className="attachment-full size-full" alt="Ouvrier d&apos;usine dans l&apos;industrie métallurgique" src="/images/about-54252451.jpg" />
                               </div>
                               <div className="image-box-body">
                                 <div className="body-inner">
@@ -137,7 +137,7 @@ export default function Project() {
                               <div className="image-box-body">
                                 <div className="body-inner">
                                   <h2 className="body-title icon-position-before">
-                                    Production d'énergie
+                                    Production d&apos;énergie
                                   </h2>
                                   <div className="body-description">
                                     Lorem ipsum dolor sit amet consectetur adipiscing elit seddo eiusmod magnis dis parturient.
@@ -166,7 +166,7 @@ export default function Project() {
                           <div className="elementor-widget-container">
                             <div className="jeg-elementor-kit jkit-image-box style-default elementor-animation- jeg_module_807_4_6ae85c5693cb6">
                               <div className="image-box-header elementor-animation-">
-                                <img className="attachment-full size-full" alt="Travail d'un ingénieur industriel sur site. Visite et inspection du site par un ingénieur industriel." src="/images/about-4486e55b.jpg" />
+                                <img className="attachment-full size-full" alt="Travail d&apos;un ingénieur industriel sur site. Visite et inspection du site par un ingénieur industriel." src="/images/about-4486e55b.jpg" />
                               </div>
                               <div className="image-box-body">
                                 <div className="body-inner">
@@ -228,7 +228,7 @@ export default function Project() {
                           <div className="elementor-widget-container">
                             <div className="jeg-elementor-kit jkit-image-box style-default elementor-animation- jeg_module_807_6_6ae85c5696032">
                               <div className="image-box-header elementor-animation-">
-                                <img className="attachment-full size-full" alt="Ouvrier expérimenté, casqué et vêtu d'une tenue de travail, réparant l'arbre d'une machine industrielle" src="/images/about-6f230433.jpg" />
+                                <img className="attachment-full size-full" alt="Ouvrier expérimenté, casqué et vêtu d&apos;une tenue de travail, réparant l&apos;arbre d&apos;une machine industrielle" src="/images/about-6f230433.jpg" />
                               </div>
                               <div className="image-box-body">
                                 <div className="body-inner">
@@ -485,7 +485,7 @@ export default function Project() {
                                 <div className="jkit-posts jkit-ajax-flag">
                                   <article className="jkit-post post-464 post type-post status-publish format-standard has-post-thumbnail hentry category-metallurgy tag-metallurgy">
                                     <div className="jkit-thumb">
-                                      <a aria-label="Recherche thermique rapide et innovation en métallurgie d'ici 2023" href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2023">
+                                      <a aria-label="Recherche thermique rapide et innovation en métallurgie d&apos;ici 2023" href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2023">
                                         <div className="thumbnail-container">
                                           <img className="attachment-full size-full wp-post-image" alt="Extraction de pétrole brut dans un champ pétrolier. Une plateforme de forage pétrolier pompe le pétrole." src="/images/blog-1.jpg" />
                                         </div>
@@ -494,7 +494,7 @@ export default function Project() {
                                     <div className="jkit-postblock-content">
                                       <h3 className="jkit-post-title">
                                         <a href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2023">
-                                          Recherche thermique rapide et innovation en métallurgie d'ici 2023
+                                          Recherche thermique rapide et innovation en métallurgie d&apos;ici 2023
                                         </a>
                                       </h3>
                                       <div className="jkit-post-excerpt">
@@ -504,7 +504,7 @@ export default function Project() {
                                       </div>
                                       <div className="jkit-post-meta-bottom">
                                         <div className="jkit-meta-readmore icon-position-after">
-                                          <a title="Recherche thermique rapide et innovation en métallurgie d'ici 2023" href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2023" className="jkit-readmore">
+                                          <a title="Recherche thermique rapide et innovation en métallurgie d&apos;ici 2023" href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2023" className="jkit-readmore">
                                             En savoir plus
                                             <i aria-hidden="true" className="jki jki-right-arrow-light"></i>
                                           </a>
@@ -514,7 +514,7 @@ export default function Project() {
                                   </article>
                                   <article className="jkit-post post-465 post type-post status-publish format-standard has-post-thumbnail hentry category-gas tag-gas">
                                     <div className="jkit-thumb">
-                                      <a aria-label="7 raisons de bâtir une brillante carrière dans l'industrie pétrolière et gazière" href="/blog/7-reasons-why-build-a-great-career-in-the-oil-gas-industry">
+                                      <a aria-label="7 raisons de bâtir une brillante carrière dans l&apos;industrie pétrolière et gazière" href="/blog/7-reasons-why-build-a-great-career-in-the-oil-gas-industry">
                                         <div className="thumbnail-container">
                                           <img className="attachment-full size-full wp-post-image" alt="Un ouvrier en uniforme et casque travaille sur un tour." src="/images/blog-2.jpg" />
                                         </div>
@@ -523,7 +523,7 @@ export default function Project() {
                                     <div className="jkit-postblock-content">
                                       <h3 className="jkit-post-title">
                                         <a href="/blog/7-reasons-why-build-a-great-career-in-the-oil-gas-industry">
-                                          7 raisons de bâtir une brillante carrière dans l'industrie pétrolière et gazière
+                                          7 raisons de bâtir une brillante carrière dans l&apos;industrie pétrolière et gazière
                                         </a>
                                       </h3>
                                       <div className="jkit-post-excerpt">
@@ -533,7 +533,7 @@ export default function Project() {
                                       </div>
                                       <div className="jkit-post-meta-bottom">
                                         <div className="jkit-meta-readmore icon-position-after">
-                                          <a title="7 raisons de bâtir une brillante carrière dans l'industrie pétrolière et gazière" href="/blog/7-reasons-why-build-a-great-career-in-the-oil-gas-industry" className="jkit-readmore">
+                                          <a title="7 raisons de bâtir une brillante carrière dans l&apos;industrie pétrolière et gazière" href="/blog/7-reasons-why-build-a-great-career-in-the-oil-gas-industry" className="jkit-readmore">
                                             En savoir plus
                                             <i aria-hidden="true" className="jki jki-right-arrow-light"></i>
                                           </a>
@@ -574,7 +574,7 @@ export default function Project() {
                                     <div className="jkit-thumb">
                                       <a aria-label="Tendances futures du secteur de la construction pétrolière et gazière" href="/blog/future-trends-in-the-oil-gas-construction-industry">
                                         <div className="thumbnail-container">
-                                          <img className="attachment-full size-full wp-post-image" alt="Gros plan sur un équipement d'usine chimique" src="/images/blog-4.jpg" />
+                                          <img className="attachment-full size-full wp-post-image" alt="Gros plan sur un équipement d&apos;usine chimique" src="/images/blog-4.jpg" />
                                         </div>
                                       </a>
                                     </div>

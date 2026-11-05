@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 export default function NavMenu() {
   const [ouvert, setOuvert] = useState(false);
@@ -29,20 +30,20 @@ export default function NavMenu() {
                 <div className="jkit-menu-container">
                   <ul id="menu-menu" className="jkit-menu jkit-menu-direction-flex jkit-submenu-position-top" onClick={basculerSousMenu}>
                     <li id="menu-item-1089" className={"menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1089" + actif("/")}>
-                      <a href="/">
+                      <Link href="/">
                         Accueil
-                      </a>
+                      </Link>
                     </li>
                     <li id="menu-item-1088" className={"menu-item menu-item-type-post_type menu-item-object-page menu-item-1088" + actif("/about")}>
-                      <a href="/about">
+                      <Link href="/about">
                         À propos
-                      </a>
+                      </Link>
                     </li>
                     <li id="menu-item-1091" className={"menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1091" + (sousMenu === "menu-item-1091" ? " open" : "") + ancetre(["/services", "/service-details"])}>
-                      <a href="/services">
+                      <Link href="/services">
                         Services
                         <i aria-hidden="true" className="jki jki-chevron-down-light"></i>
-                      </a>
+                      </Link>
                       <ul className="sub-menu">
                         <li id="menu-item-1087" className={"menu-item menu-item-type-post_type menu-item-object-page menu-item-1087" + actif("/services")}>
                           <a href="/services">
@@ -84,7 +85,7 @@ export default function NavMenu() {
                         </li>
                       </ul>
                     </li>
-                    <li id="menu-item-1090" className={"menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1090" + (sousMenu === "menu-item-1090" ? " open" : "") + ancetre(["/blog", "/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2023"])}>
+                    <li id="menu-item-1090" className={"menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1090" + (sousMenu === "menu-item-1090" ? " open" : "") + ancetre(["/blog", "/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2026"])}>
                       <a href="/blog">
                         Blog
                         <i aria-hidden="true" className="jki jki-chevron-down-light"></i>
@@ -95,8 +96,8 @@ export default function NavMenu() {
                             Blog
                           </a>
                         </li>
-                        <li id="menu-item-1092" className={"menu-item menu-item-type-post_type menu-item-object-post menu-item-1092" + actif("/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2023")}>
-                          <a href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2023">
+                        <li id="menu-item-1092" className={"menu-item menu-item-type-post_type menu-item-object-post menu-item-1092" + actif("/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2026")}>
+                          <a href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2026">
                             Article unique
                           </a>
                         </li>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Process() {
   return (
     <>
@@ -27,10 +29,10 @@ export default function Process() {
                       <div className="elementor-element elementor-element-339b71b elementor-widget elementor-widget-jkit_button">
                         <div className="elementor-widget-container">
                           <div className="jeg-elementor-kit jkit-button icon-position-after jeg_module_159_28_6ae7265474cb8">
-                            <a href="/" className="jkit-button-wrapper">
+                            <Link href="/" className="jkit-button-wrapper">
                               En savoir plus
                               <i aria-hidden="true" className="jki jki-right-arrow-light"></i>
-                            </a>
+                            </Link>
                           </div>
                           {" "}
                         </div>

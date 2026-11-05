@@ -42,7 +42,7 @@ export default function NotFound() {
                           <div className="elementor-widget-container">
                             <div className="jeg-elementor-kit jkit-button icon-position-before jeg_module_809_2_6ae85c5e8c3d9">
                               <a href="/404-page" className="jkit-button-wrapper">
-                                Retour à l'accueil
+                                Retour à l&apos;accueil
                               </a>
                             </div>
                             {" "}

@@ -65,7 +65,7 @@ export default function ServiceDetails() {
                 <div className="elementor-element elementor-element-04ea749 elementor-widget elementor-widget-heading">
                   <div className="elementor-widget-container">
                     <h2 className="elementor-heading-title elementor-size-default">
-                      Planification de l'énergie thermique
+                      Planification de l&apos;énergie thermique
                     </h2>
                     {" "}
                   </div>
@@ -96,7 +96,7 @@ export default function ServiceDetails() {
                                   {" "}
                                 </span>
                                 <span className="elementor-icon-list-text">
-                                  Détails de l'entreprise
+                                  Détails de l&apos;entreprise
                                 </span>
                               </li>
                               <li className="elementor-icon-list-item">
@@ -227,7 +227,7 @@ export default function ServiceDetails() {
                               <div className="elementor-widget-wrap elementor-element-populated">
                                 <div className="elementor-element elementor-element-4336460 elementor-widget__width-initial elementor-widget elementor-widget-jkit_pie_chart">
                                   <div className="elementor-widget-container">
-                                    <PieChart className={"jeg-elementor-kit jkit-pie-chart style-static jeg_module_806_2_6ae85c5404978"} value={87} title={"Niveau d'automatisation"} description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit."} />
+                                    <PieChart className={"jeg-elementor-kit jkit-pie-chart style-static jeg_module_806_2_6ae85c5404978"} value={87} title={"Niveau d&apos;automatisation"} description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit."} />
                                     {" "}
                                   </div>
                                 </div>

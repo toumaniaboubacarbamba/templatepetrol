@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export default function Blog() {
   return (
@@ -90,7 +91,7 @@ export default function Blog() {
                                     <div className="jkit-postblock-content">
                                       <h3 className="jkit-post-title">
                                         <a href="/blog/7-reasons-why-build-a-great-career-in-the-oil-gas-industry">
-                                          7 raisons de bâtir une brillante carrière dans l'industrie pétrolière et gazière
+                                          7 raisons de bâtir une brillante carrière dans l&apos;industrie pétrolière et gazière
                                         </a>
                                       </h3>
                                       <div className="jkit-post-excerpt">
@@ -149,7 +150,7 @@ export default function Blog() {
                             <div className="jkit-postblock-content">
                               <h3 className="jkit-post-title">
                                 <a href="/blog/importance-of-the-mechanics-lien-to-construction-industry">
-                                  Importance du privilège du mécanicien pour l'industrie de la construction
+                                  Importance du privilège du mécanicien pour l&apos;industrie de la construction
                                 </a>
                               </h3>
                               <div className="jkit-post-excerpt">
@@ -285,7 +286,7 @@ export default function Blog() {
                                     <a href="/blog/rapid-thermal-research-and-innovation-in-metallurgy-by-2023">
                                       <div className="jkit-postlist-content">
                                         <span className="jkit-postlist-title">
-                                          Recherche thermique rapide et innovation en métallurgie d'ici 2023
+                                          Recherche thermique rapide et innovation en métallurgie d&apos;ici 2026
                                         </span>
                                         <div className="meta-lists">
                                           <span className="meta-date">
@@ -301,7 +302,7 @@ export default function Blog() {
                                     <a href="/blog/7-reasons-why-build-a-great-career-in-the-oil-gas-industry">
                                       <div className="jkit-postlist-content">
                                         <span className="jkit-postlist-title">
-                                          7 raisons de bâtir une brillante carrière dans l'industrie pétrolière et gazière
+                                          7 raisons de bâtir une brillante carrière dans l&apos;industrie pétrolière et gazière
                                         </span>
                                         <div className="meta-lists">
                                           <span className="meta-date">
@@ -407,54 +408,54 @@ export default function Blog() {
                           <div className="elementor-widget-container">
                             <div className="jeg-elementor-kit jkit-categorylist layout-vertical jeg_module_810_6_6ae85c60e78f1">
                               <div className="jkit-category category-list-item">
-                                <a href="/category/technology">
+                                <Link href="/category/technology">
                                   <span className="icon-list">
                                     <i aria-hidden="true" className="fas fa-chevron-right"></i>
                                   </span>
                                   <div className="jkit-categorylist-content">
                                     Technologie
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                               <div className="jkit-category category-list-item">
-                                <a href="/category/research">
+                                <Link href="/category/research">
                                   <span className="icon-list">
                                     <i aria-hidden="true" className="fas fa-chevron-right"></i>
                                   </span>
                                   <div className="jkit-categorylist-content">
                                     Recherche
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                               <div className="jkit-category category-list-item">
-                                <a href="/category/oil">
+                                <Link href="/category/oil">
                                   <span className="icon-list">
                                     <i aria-hidden="true" className="fas fa-chevron-right"></i>
                                   </span>
                                   <div className="jkit-categorylist-content">
                                     Huile
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                               <div className="jkit-category category-list-item">
-                                <a href="/category/metallurgy">
+                                <Link href="/category/metallurgy">
                                   <span className="icon-list">
                                     <i aria-hidden="true" className="fas fa-chevron-right"></i>
                                   </span>
                                   <div className="jkit-categorylist-content">
                                     Métallurgie
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                               <div className="jkit-category category-list-item">
-                                <a href="/category/industry">
+                                <Link href="/category/industry">
                                   <span className="icon-list">
                                     <i aria-hidden="true" className="fas fa-chevron-right"></i>
                                   </span>
                                   <div className="jkit-categorylist-content">
                                     Industrie
                                   </div>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                             {" "}

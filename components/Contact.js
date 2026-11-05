@@ -73,7 +73,7 @@ export default function Contact() {
                 <div className="elementor-element elementor-element-14a82d63 elementor-widget elementor-widget-heading">
                   <div className="elementor-widget-container">
                     <h2 className="elementor-heading-title elementor-size-default">
-                      N'hésitez pas à nous contacter
+                      N&apos;hésitez pas à nous contacter
                     </h2>
                     {" "}
                   </div>

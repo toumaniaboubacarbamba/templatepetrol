@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ProgressBar from "./ProgressBar";
 
 export default function WhyChooseUs() {
@@ -105,9 +106,9 @@ export default function WhyChooseUs() {
                       <div className="elementor-element elementor-element-9b5efad elementor-widget__width-auto elementor-widget elementor-widget-jkit_button">
                         <div className="elementor-widget-container">
                           <div className="jeg-elementor-kit jkit-button icon-position-before jeg_module_159_12_6ae726545cfae">
-                            <a href="/" className="jkit-button-wrapper">
+                            <Link href="/" className="jkit-button-wrapper">
                               Contactez-nous
-                            </a>
+                            </Link>
                           </div>
                           {" "}
                         </div>
