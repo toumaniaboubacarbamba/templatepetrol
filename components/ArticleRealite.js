@@ -32,7 +32,7 @@ export default function ArticleRealite() {
                           <div className="elementor-widget-container">
                             <div className="jeg-elementor-kit jkit-post-author jeg_module_466_3_6ae85c6b2a113">
                               <p className="post-author">
-                                <a href="/author/admin">
+                                <a href="/blog">
                                   John Doe
                                 </a>
                               </p>

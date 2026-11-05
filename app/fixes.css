@@ -40,3 +40,18 @@
   line-height: 1;
   cursor: pointer;
 }
+
+/* Pages d'archive (catégories) : le thème limite la largeur de .site-main seulement quand le <body>
+   n'a pas de classe elementor-page-*, ce qui n'est pas le cas ici. On reprend la règle sans cette condition. */
+.site-main {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+@media (max-width: 575px) {
+  .site-main { padding-right: 10px; padding-left: 10px; }
+}
+@media (min-width: 576px) { .site-main { max-width: 500px; } }
+@media (min-width: 768px) { .site-main { max-width: 600px; } }
+@media (min-width: 992px) { .site-main { max-width: 800px; } }
+@media (min-width: 1200px) { .site-main { max-width: 1140px; } }

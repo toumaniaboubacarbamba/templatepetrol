@@ -12,7 +12,7 @@ export default function Article() {
                   <div className="elementor-widget-container">
                     <div className="jeg-elementor-kit jkit-post-title jeg_module_464_2_6ae85c6361e04">
                       <h2 className="post-title style-color">
-                        Recherche thermique rapide et innovation en métallurgie d'ici 2023
+                        Recherche thermique rapide et innovation en métallurgie d&apos;ici 2023
                       </h2>
                     </div>
                     {" "}
@@ -32,7 +32,7 @@ export default function Article() {
                           <div className="elementor-widget-container">
                             <div className="jeg-elementor-kit jkit-post-author jeg_module_464_3_6ae85c6363092">
                               <p className="post-author">
-                                <a href="/author/admin">
+                                <a href="/blog">
                                   John Doe
                                 </a>
                               </p>
@@ -54,7 +54,7 @@ export default function Article() {
                           <div className="elementor-widget-container">
                             <div className="jeg-elementor-kit jkit-post-date jeg_module_464_4_6ae85c636408c">
                               <p className="post-date">
-                                10 janvier 2023
+                                18 Mars 2026
                               </p>
                             </div>
                             {" "}
@@ -110,7 +110,7 @@ export default function Article() {
                 <div className="elementor-element elementor-element-2dcd1144 elementor-widget elementor-widget-heading">
                   <div className="elementor-widget-container">
                     <h2 className="elementor-heading-title elementor-size-default">
-                      Assurez-vous d'obtenir toujours les meilleurs résultats
+                      Assurez-vous d&apos; obtenir toujours les meilleurs résultats
                     </h2>
                     {" "}
                   </div>

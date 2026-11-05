@@ -1,5 +1,6 @@
 import VideoLightbox from "./VideoLightbox";
 import Counter from "./Counter";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -11,7 +12,7 @@ export default function About() {
               <div className="elementor-element elementor-element-865ea82 elementor-widget elementor-widget-heading">
                 <div className="elementor-widget-container">
                   <h4 className="elementor-heading-title elementor-size-default">
-                    À propos de l'entreprise
+                    À propos de l&apos;entreprise
                   </h4>
                   {" "}
                 </div>
@@ -60,7 +61,7 @@ export default function About() {
                                   </sup>
                                 </div>
                                 <div className="title">
-                                  Années d'expérience
+                                  Années d&apos;expérience
                                 </div>
                               </div>
                             </div>
@@ -94,9 +95,9 @@ export default function About() {
               <div className="elementor-element elementor-element-2482c15 elementor-widget elementor-widget-jkit_button">
                 <div className="elementor-widget-container">
                   <div className="jeg-elementor-kit jkit-button icon-position-after jeg_module_159_8_6ae72654524d8">
-                    <a href="/" className="jkit-button-wrapper">
+                    <Link href="/" className="jkit-button-wrapper">
                       En savoir plus
-                    </a>
+                    </Link>
                   </div>
                   {" "}
                 </div>
@@ -123,10 +124,10 @@ export default function About() {
                         </p>
                         <div className="icon-box-button">
                           <div className="btn-wrapper icon-position-after">
-                            <a href="/" className="icon-box-link" aria-label="Learn More">
+                            <Link href="/" className="icon-box-link" aria-label="Learn More">
                               Apprendre encore plus
                               <i aria-hidden="true" className="jki jki-right-arrow1-light"></i>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -153,10 +154,10 @@ export default function About() {
                         </p>
                         <div className="icon-box-button">
                           <div className="btn-wrapper icon-position-after">
-                            <a href="/" className="icon-box-link" aria-label="Learn More">
+                            <Link href="/" className="icon-box-link" aria-label="Learn More">
                               Apprendre encore plus
                               <i aria-hidden="true" className="jki jki-right-arrow1-light"></i>
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>

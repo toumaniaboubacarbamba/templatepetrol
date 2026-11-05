@@ -12,7 +12,7 @@ export default function Article7Raisons() {
                   <div className="elementor-widget-container">
                     <div className="jeg-elementor-kit jkit-post-title jeg_module_465_2_6ae85c68873a5">
                       <h2 className="post-title style-color">
-                        7 raisons de bâtir une brillante carrière dans l'industrie pétrolière et gazière
+                        7 raisons de bâtir une brillante carrière dans l&apos;industrie pétrolière et gazière
                       </h2>
                     </div>
                     {" "}
@@ -32,8 +32,8 @@ export default function Article7Raisons() {
                           <div className="elementor-widget-container">
                             <div className="jeg-elementor-kit jkit-post-author jeg_module_465_3_6ae85c688890e">
                               <p className="post-author">
-                                <a href="/author/admin">
-                                  John Doe
+                                <a href="/blog">
+                                  Toumani
                                 </a>
                               </p>
                             </div>
@@ -110,7 +110,7 @@ export default function Article7Raisons() {
                 <div className="elementor-element elementor-element-67060dfe elementor-widget elementor-widget-heading">
                   <div className="elementor-widget-container">
                     <h2 className="elementor-heading-title elementor-size-default">
-                      Assurez-vous d'obtenir toujours les meilleurs résultats
+                      Assurez-vous d&apos;obtenir toujours les meilleurs résultats
                     </h2>
                     {" "}
                   </div>

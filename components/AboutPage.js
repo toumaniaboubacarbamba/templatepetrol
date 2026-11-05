@@ -67,7 +67,7 @@ export default function AboutPage() {
                 <div className="elementor-element elementor-element-06e222c elementor-widget elementor-widget-heading">
                   <div className="elementor-widget-container">
                     <h4 className="elementor-heading-title elementor-size-default">
-                      À propos de l'entreprise
+                      À propos de l&apos;entreprise
                     </h4>
                     {" "}
                   </div>
@@ -117,7 +117,7 @@ export default function AboutPage() {
                                     </sup>
                                   </div>
                                   <div className="title">
-                                    Années d'expérience
+                                    Années d&apos;expérience
                                   </div>
                                 </div>
                               </div>
@@ -510,7 +510,7 @@ export default function AboutPage() {
                         <div className="elementor-element elementor-element-391b1b2 elementor-widget elementor-widget-heading">
                           <div className="elementor-widget-container">
                             <h2 className="elementor-heading-title elementor-size-default">
-                              Nous sommes disponibles 24h/24 et 7j/7 pour les services d'urgence
+                              Nous sommes disponibles 24h/24 et 7j/7 pour les services d&apos;urgence
                             </h2>
                             {" "}
                           </div>
@@ -883,7 +883,7 @@ export default function AboutPage() {
                             <div className="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_675_24_6ae856523e04a">
                               <div className="heading-section-title display-inline-block">
                                 <h2 className="heading-title">
-                                  Fabricio Malo
+                                  Kouassi Kouadio
                                 </h2>
                               </div>
                               <div className="heading-section-description">

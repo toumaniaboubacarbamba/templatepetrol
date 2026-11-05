@@ -32,7 +32,7 @@ export default function ArticleTendances() {
                           <div className="elementor-widget-container">
                             <div className="jeg-elementor-kit jkit-post-author jeg_module_467_3_6ae85c6da4965">
                               <p className="post-author">
-                                <a href="/author/admin">
+                                <a href="/blog">
                                   John Doe
                                 </a>
                               </p>
