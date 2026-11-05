@@ -1,3 +1,4 @@
+import Link from "next/link";
 import HeroSlideshow from "./HeroSlideshow";
 
 export default function Hero() {
@@ -45,9 +46,9 @@ export default function Hero() {
               <div className="elementor-element elementor-element-39d63ad elementor-widget__width-auto elementor-widget elementor-widget-jkit_button">
                 <div className="elementor-widget-container">
                   <div className="jeg-elementor-kit jkit-button icon-position-before jeg_module_159_2_6ae7265443a8a">
-                    <a href="/" className="jkit-button-wrapper">
+                    <Link href="/" className="jkit-button-wrapper">
                       Commencer
-                    </a>
+                    </Link>
                   </div>
                   {" "}
                 </div>
@@ -55,9 +56,9 @@ export default function Hero() {
               <div className="elementor-element elementor-element-bfa3f0c elementor-widget__width-auto elementor-widget elementor-widget-jkit_button">
                 <div className="elementor-widget-container">
                   <div className="jeg-elementor-kit jkit-button icon-position-before jeg_module_159_3_6ae72654443ca">
-                    <a href="/" className="jkit-button-wrapper">
+                    <Link href="/" className="jkit-button-wrapper">
                       Contactez-nous
-                    </a>
+                    </Link>
                   </div>
                   {" "}
                 </div>

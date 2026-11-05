@@ -121,7 +121,7 @@ export default function Header() {
                             </span>
                           </h3>
                           <p className="elementor-icon-box-description">
-                            (+62) 81 487 1843
+                                  (+225) 81 148 32 843
                           </p>
                         </div>
                       </div>
